@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1074E09C27AA487D0018C838 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1074E09B27AA487D0018C838 /* ListViewModel.swift */; };
+		109FDA0727B8877C006876C9 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 109FDA0627B8877C006876C9 /* NoItemsView.swift */; };
 		10BA7DEC27A9E2CB00245B04 /* TodoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA7DEB27A9E2CB00245B04 /* TodoApp.swift */; };
 		10BA7DF027A9E2CC00245B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7DEF27A9E2CC00245B04 /* Assets.xcassets */; };
 		10BA7DF327A9E2CC00245B04 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BA7DF227A9E2CC00245B04 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		1074E09B27AA487D0018C838 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		109FDA0627B8877C006876C9 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		10BA7DE827A9E2CB00245B04 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BA7DEB27A9E2CB00245B04 /* TodoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoApp.swift; sourceTree = "<group>"; };
 		10BA7DEF27A9E2CC00245B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				10BA7DFC27A9E2E900245B04 /* ListView.swift */,
 				10BA7E0127A9E4D500245B04 /* ListElementView.swift */,
 				10BA7E0427A9E81600245B04 /* AddView.swift */,
+				109FDA0627B8877C006876C9 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 				1074E09C27AA487D0018C838 /* ListViewModel.swift in Sources */,
 				10BA7DEC27A9E2CB00245B04 /* TodoApp.swift in Sources */,
 				10BA7DFD27A9E2E900245B04 /* ListView.swift in Sources */,
+				109FDA0727B8877C006876C9 /* NoItemsView.swift in Sources */,
 				10BA7E0227A9E4D500245B04 /* ListElementView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
